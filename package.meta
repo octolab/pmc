@@ -1,6 +1,6 @@
 pip:
   require:
-    python: ^2.7
+    python:   ^2.7
 
     # Skeleton for cli application
     # [http://click.pocoo.org/6/, https://github.com/pallets/click]
