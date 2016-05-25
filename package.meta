@@ -1,9 +1,19 @@
 pip:
   require:
     python: ^2.7
-    # http://click.pocoo.org/6/
-    # https://github.com/pallets/click, https://github.com/click-contrib/
-    Click:  ">= 6.6"
-    # http://pyyaml.org
-    # https://bitbucket.org/xi/pyyaml
-    PyYAML: ">= 3.11"
+
+    # Skeleton for cli application
+    # [http://click.pocoo.org/6/, https://github.com/pallets/click]
+    Click:    ">= 6.6"
+
+    # Skeleton for package converters
+    # [http://jinja.pocoo.org, https://github.com/pallets/jinja]
+    Jinja2:   ">= 2.8"
+
+    # Parser for package.meta (YAML)
+    # [http://pyyaml.org, https://bitbucket.org/xi/pyyaml]
+    PyYAML:   ">= 3.11"
+
+    # HTTP client to download packages schema for validation
+    # [http://docs.python-requests.org/en/master/, https://github.com/kennethreitz/requests]
+    requests: ">= 2.10"
