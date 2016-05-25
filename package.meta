@@ -1,0 +1,9 @@
+pip:
+  require:
+    python: ^2.7
+    # http://click.pocoo.org/6/
+    # https://github.com/pallets/click, https://github.com/click-contrib/
+    Click:  ">= 6.6"
+    # http://pyyaml.org
+    # https://bitbucket.org/xi/pyyaml
+    PyYAML: ">= 3.11"
