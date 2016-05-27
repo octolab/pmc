@@ -20,12 +20,13 @@ def convert(filename, output, package):
     content = yaml.load(open(filename).read())
     if package == '*':
         output.write(json.dumps(content, indent=2))
-        output.flush()
     elif package in content:
         output.write(json.dumps(content[package], indent=2))
-        output.flush()
     else:
         click.echo('Package %s not found' % package)
+        return
+    output.write("\n")
+    output.flush()
 
 
 @cli.command()
@@ -40,3 +41,4 @@ def validate(package, filename):
         click.echo(json.dumps(content[package], indent=2))
     else:
         click.echo('Package %s not found' % package)
+        return
