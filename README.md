@@ -4,6 +4,10 @@
 
 ## [Documentation](https://github.com/octolab/pmc/wiki)
 
+### Example of usages
+
+- [kamilsk/common:package.meta](https://github.com/kamilsk/Common/blob/3.x/package.meta)
+
 ## Installation
 
 ### Requirements
@@ -43,7 +47,17 @@ $ git remote add mirror git@bitbucket.org:kamilsk/pmc.git
 ### Global
 
 ```bash
-$ pip install pmc
+$ pip install pmdc
+$ which pmc
+$ pmc --help
+Usage: pmc [OPTIONS] COMMAND [ARGS]...
+
+Options:
+  --help  Show this message and exit.
+
+Commands:
+  convert   Convert package.meta to package files
+  validate  Validate package.meta or its section
 ```
 
 ## Pulse of repository
