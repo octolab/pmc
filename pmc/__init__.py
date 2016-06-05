@@ -2,7 +2,7 @@
     pmc
     ~~~
 
-    Simple package metadata compiler. You can using it with package.meta to describe your composer, npm, etc. packages.
+    Simple package metadata compiler. You can use it with package.meta to describe your composer, npm, etc. packages.
 
     :copyright: (c) 2013-2016 OctoLab, https://www.octolab.org/ <feedback@octolab.org>
     :license: MIT

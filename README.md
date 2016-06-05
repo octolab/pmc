@@ -1,6 +1,6 @@
 > # Package metadata compiler
 >
-> Keep calm and use YAML for describe your packages.
+> Keep calm and use YAML to describe your packages.
 
 ## [Documentation](https://github.com/octolab/pmc/wiki)
 
@@ -56,8 +56,9 @@ Options:
   --help  Show this message and exit.
 
 Commands:
-  convert   Convert package.meta to package files
-  validate  Validate package.meta or its section
+  convert   Convert package.meta to package file(s).
+  validate  not implemented yet...
+  watch     not implemented yet...
 ```
 
 ## Pulse of repository

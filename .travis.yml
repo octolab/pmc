@@ -1,8 +1,21 @@
+language: python
+
+python:
+- 2.7
+
+sudo: false
+
+before_install:
+- travis_retry pip install --upgrade pip
+
+install:
+- pip install --editable .
+
 notifications:
   slack: octolab:1eMS7IqOArBipiu31jYVd0cN
   webhooks:
     urls:
-      - https://webhooks.gitter.im/e/14cd7649833d33184c2f
+    - https://webhooks.gitter.im/e/14cd7649833d33184c2f
     on_success: change
     on_failure: always
     on_start: never

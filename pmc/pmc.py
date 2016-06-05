@@ -40,5 +40,26 @@ def convert(filename, dump):
 @cli.command()
 @click.argument('filename', type=click.Path(exists=True))
 def validate(filename):
-    """ Validate package.meta or its section (not implemented yet) """
+    """
+    not implemented yet...
+
+    :param str filename:
+
+    :return int
+    """
     click.echo('Not implemented yet.')
+    return 0
+
+
+@cli.command()
+@click.argument('filename', type=click.Path(exists=True))
+def watch(filename):
+    """
+    not implemented yet...
+
+    :param str filename:
+
+    :return int
+    """
+    click.echo('Not implemented yet.')
+    return 0
