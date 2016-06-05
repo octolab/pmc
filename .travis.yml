@@ -11,6 +11,9 @@ before_install:
 install:
 - pip install --editable .
 
+script:
+- python pmc/tests.py
+
 notifications:
   slack: octolab:1eMS7IqOArBipiu31jYVd0cN
   webhooks:
