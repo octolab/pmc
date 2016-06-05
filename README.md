@@ -4,6 +4,8 @@
 
 ## [Documentation](https://github.com/octolab/pmc/wiki)
 
+[![Join the chat at https://gitter.im/octolab/pmc](https://badges.gitter.im/octolab/pmc.svg)](https://gitter.im/octolab/pmc?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 ### Example of usages
 
 - [kamilsk/common:package.meta](https://github.com/kamilsk/Common/blob/3.x/package.meta)
