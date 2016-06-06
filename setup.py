@@ -37,6 +37,7 @@ setup(
         'jinja2 >= 2.8',
         'pyyaml >= 2.8',
         'requests >= 2.10',
+        'watchdog >= 0.8'
     ],
     extras_require={
         'dev': ['check-manifest'],

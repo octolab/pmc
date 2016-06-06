@@ -1,5 +1,6 @@
-from abc import ABCMeta, abstractmethod, abstractproperty
 import json
+
+from abc import ABCMeta, abstractmethod, abstractproperty
 
 
 class Processor(object):

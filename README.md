@@ -34,8 +34,9 @@ Options:
   --help  Show this message and exit.
 
 Commands:
-  convert   Convert package.meta to package files
-  validate  Validate package.meta or its section
+  convert   Convert package.meta to package file(s).
+  validate  Validate package.meta.
+  watch     Watch for package.meta changes.
 ```
 
 #### Mirror
@@ -57,8 +58,8 @@ Options:
 
 Commands:
   convert   Convert package.meta to package file(s).
-  validate  not implemented yet...
-  watch     not implemented yet...
+  validate  Validate package.meta.
+  watch     Watch for package.meta changes.
 ```
 
 ## Pulse of repository

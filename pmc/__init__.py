@@ -8,11 +8,13 @@
     :license: MIT
 """
 
+from .filesystem import File, Watcher
+from .parser import Parser, YamlParser, ParseError, ValidateError
 from .processor import Processor, ComposerProcessor
-from .parser import Parser, YamlParser
 
 __all__ = [
+    'File', 'Watcher',
+    'Parser', 'YamlParser', 'ParseError', 'ValidateError',
     'Processor', 'ComposerProcessor',
-    'Parser', 'YamlParser',
 ]
-__version__ = '1.0-dev1'
+__version__ = '1.0.0'
