@@ -82,3 +82,5 @@ If you discover any security related issues, please email feedback@octolab.org i
 ## License
 
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
+
+[![Analytics](https://ga-beacon.appspot.com/UA-109817251-5/pmc/readme)](https://github.com/igrigorik/ga-beacon)
