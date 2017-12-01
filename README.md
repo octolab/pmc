@@ -2,11 +2,8 @@
 >
 > Keep calm and use YAML to describe your packages.
 
-## [Documentation](https://github.com/octolab/pmc/wiki)
-
-### Example of usages
-
-- [kamilsk/common:package.meta](https://github.com/kamilsk/Common/blob/3.x/package.meta)
+[![Patreon](https://img.shields.io/badge/patreon-donate-orange.svg)](https://www.patreon.com/octolab)
+[![License](https://img.shields.io/github/license/mashape/apistatus.svg?maxAge=2592000)](LICENSE)
 
 ## Installation
 
@@ -20,12 +17,12 @@
 
 ### Git (development)
 
-[Fork it before](https://github.com/octolab/pmc/fork).
+[Fork it before](https://github.com/kamilsk/pmc/fork).
 
 ```bash
 $ git clone git@github.com:<your github account>/pmc.git
 $ cd pmc && composer install
-$ git remote add upstream git@github.com:octolab/pmc.git
+$ git remote add upstream git@github.com:kamilsk/pmc.git
 $ pip install --editable .
 $ pmc --help
 Usage: pmc [OPTIONS] COMMAND [ARGS]...
@@ -62,25 +59,13 @@ Commands:
   watch     Watch for package.meta changes.
 ```
 
-## Pulse of repository
+## Feedback
 
-### [Changelog](CHANGELOG.md)
+[![@kamilsk](https://img.shields.io/badge/author-%40kamilsk-blue.svg)](https://twitter.com/ikamilsk)
+[![@octolab](https://img.shields.io/badge/sponsor-%40octolab-blue.svg)](https://twitter.com/octolab_inc)
 
-### Feedback
+## Notes
 
-[![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/octolab/pmc)
-[![@ikamilsk](https://img.shields.io/badge/author-%40ikamilsk-blue.svg)](https://twitter.com/ikamilsk)
-
-## Contributing
-
-Please see [CONTRIBUTING](CONTRIBUTING.md) and [CONDUCT](CONDUCT.md) for details.
-
-## Security
-
-If you discover any security related issues, please email feedback@octolab.org instead of using the issue tracker.
-
-## License
-
-The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
+- made with ❤️ by [OctoLab](https://www.octolab.org/)
 
 [![Analytics](https://ga-beacon.appspot.com/UA-109817251-5/pmc/readme)](https://github.com/igrigorik/ga-beacon)
